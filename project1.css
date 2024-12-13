@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* max-width: 100%; */
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgba(255, 252, 168, 1);
+}
+
+.navbar{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  margin: 24px 180px 0 180px;
+  background-color:rgb(210, 224, 144);
+  padding: 10px 32px;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px gray;
+  /* margin-top:10px; */
+}
+.navbar .left{
+    display: flex;
+    gap: 32px;
+  }
+nav:hover{
+    transform: scale(1.01); 
+    
+}
+.navbar a{
+    color:rgba(27, 34, 27, 1);
+    text-decoration: none;
+    font-size: 17px;
+}
+.navbar .logo{
+    font-family: 'MuseoModerno';
+    text-align:center;
+    font-weight: 500;
+    font-size: 42px;
+    margin: 0;
+}
+.navbar .right{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header{
+    padding: 48px 48px;
+    margin: 24px 180px 0 170px;
+    text-align: center;
+
+}
+header h2{
+    text-align: center;
+    margin:0;
+    margin-bottom: 48px;
+    margin-top: 72px;
+    font-size: 100px;
+}
+.mainimage{
+    width: 100%;
+}
+img{
+    border-radius: 22px;
+}
+.collage .pics{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 48px;
+}
+.collage{
+    padding: 48px;
+}
+.collage .pics img{
+    width: 100%;
+    margin-bottom: 8px;
+}
+p{
+    font-style: oblique;
+    font-family: 'Cutive', serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.landingpagefooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.landingpagefooter .outline .stay{
+    padding-bottom: 30px;
+}
+
+.landingpagefooter .outline .stay h4{
+    font-family: Montagu Slab;
+    font-style: italic;
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(27, 34, 27, 1);
+}
+
+
+input{
+    background-color:rgba(255, 252, 168, 1);
+    width: 432px;
+    height: 48px;
+    padding: 8px 12px 8px 12px;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid rgba(27, 34, 27, 1);
+    opacity: 0px;
+    border-top: 1px solid rgba(27, 34, 27, 1);
+    font-size: 25px;
+    text-align: center;
+}
+
+.Subscribe{
+    background: rgba(2, 102, 0, 1);
+    color: white;
+    padding: 12px 24px 12px 24px;
+    border-radius: 8px ;
+    opacity: 0px; 
+    margin-left: 20px;
+    font-size: 30px;
+    text-align: center;
+    font-style:Sans Mono;
+}
+.Subscribe:hover{
+    cursor: pointer;
+    box-shadow: 0 4px 20px gray;
+    transform: scale(1.05);
+}
+.Subscribe:active{
+    background-color: rgb(51, 187, 47);
+    cursor: pointer;
+}
+
+.facebook img{
+    padding-top: 70px;
+    padding-left: 70px;
+    margin-left: 0px;
+}
+
+footer{
+    display: flex; 
+    justify-content: space-between; 
+    padding-top: 250px ;
+    padding-bottom: 50px ;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+footer .pagelinks h5{
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.contact{
+    background-color:rgba(255, 252, 168, 1);
+    padding: 12px 24px 12px 24px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+}
+
+.contact:hover{
+    cursor: pointer;
+    box-shadow: 0 4px 20px gray;
+}
+.contact:active{
+    background-color: rgb(152, 148, 51);
+}
+img:hover{
+    cursor: pointer;
+    transform: scale(0.95);
+}
+.stay{
+    margin-bottom: 35px;
+}
+
+.text1{
+    font-family: "Cutive", serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+.text2{
+    font-family: "Cutive", serif;
+    font-style: normal;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+      
