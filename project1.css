@@ -232,6 +232,7 @@ img:hover{
 @media screen and (max-width: 1024px){
     .logo{
         margin-left: 50px;
+        /* justify-content: center; */
     }
 }
 
@@ -263,17 +264,8 @@ img:hover{
         width: auto;
     }
 }
-/* @media screen and (max-width:820px){
-    .left {
-        display: none;
-    }
-} */
- @media screen and (max-width:320px){
-    .navbar .logo{
-        font-size: none;
-    }
- }
- @media screen and (max-width:768px){
+
+@media screen and (max-width:768px){
     .navbar .left{
         display: grid;
         gap: 15px;
@@ -300,3 +292,36 @@ img:hover{
         margin-top: 0;
     }
  }
+ @media screen and (max-width:414px){
+    .navbar .logo{
+        margin-left: 80px;
+    }
+ }
+ @media screen and (max-width:320px){
+    .navbar .logo{
+        margin-left: 30px;
+    }
+ } 
+ /* @media screen and (max-width:540px){
+    .navbar .logo{
+        margin-left: 150px;
+    }
+ }  */
+ /* @media screen and (max-width:430px){
+    .navbar .logo{
+        margin-left: 90px;
+    }
+ }
+ @media screen and (max-width:820px){
+    .navbar .logo{
+        margin-left: 0px;
+    }
+    .navbar .left{
+        display: block;
+    }
+ } */
+ /* @media screen and (max-width:412px){
+    .navbar .logo{
+        margin-left: 80px;
+    }
+ } */
