@@ -62,6 +62,19 @@ header h2{
     margin-top: 72px;
     font-size: 100px;
 }
+.heading{
+    animation: drop 4s ;
+}
+@keyframes drop {
+    0% {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 .mainimage{
     height: 100%;
     width: 100%;
@@ -199,7 +212,8 @@ footer .pagelinks h5{
 }
 img:hover{
     cursor: pointer;
-    transform: scale(0.95);
+    transform: scale(1.05);
+    transition: 0.25s ease-in-out;
 }
 .subscribe-container{
     display: flex;
